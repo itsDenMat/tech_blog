@@ -2,47 +2,47 @@ const { User } = require('../models');
 
 const userData = [
     {
-        username: "martin_bour",
-        twitter: "martinb",
-        github: "martinb",
-        email: "martin_b@gmail.com",
-        password: "p@ssword1"
-    },
-    {
-        username: "matt_b",
-        twitter: "mathewb",
-        github: "mathewb",
-        email: "mathew_b@gmail.com",
-        password: "p@ssword2"
-    },
-    {
-        username: "shaun_c",
-        twitter: "shaun",
-        github: "shaun",
-        email: "shaun_c@gmail.com",
-        password: "p@ssword3"
-    },
-    {
-        username: "lee_n",
-        twitter: "leenorris",
-        github: "leenorris",
-        email: "lee_n@gmail.com",
-        password: "p@ssword4"
-    },
-    {
-        username: "priya_r",
-        twitter: "priyaravi23",
-        github: "priyaravi23",
-        email: "priya_r@gmail.com",
-        password: "p@ssword5"
-    },
-    {
-        username: "pooja",
-        twitter: "pooja_w",
-        github: "pooja",
-        email: "pooja@gmail.com",
-        password: "p@ssword6"
-    }
+        username: "jeff_bezos",
+        twitter: "JeffBezos",
+        github: "",
+        email: "jeff_bezos@email.com",
+        password: "P@ssword1"
+     },
+     {
+         username: "elon_musk",
+         twitter: "elonmusk",
+         github: "",
+         email: "elonmusk@email.com",
+         password: "P@ssword2"
+     },
+     {
+         username: "mark_zuck",
+         twitter: "finkd",
+         github: "",
+         email:"markzuckerberg@email.com",
+         password: "P@ssword3"
+     },
+     {
+         username: "jack_dorsey",
+         twitter: "jack",
+         github: "",
+         email: "jackdorsey@email.com",
+         password: "P@ssword4"
+     },
+     {
+         username: "tim_cook",
+         twitter: "tim_cook",
+         github: "",
+         email: "timcook@email.com",
+         password: "P@ssword5"
+     },
+     {
+         username: "tom_preston",
+         twitter: "mojombo",
+         github: "mojombo",
+         email: "tom@mojombo.com",
+         password: "P@ssword6"
+     },
 ]
 
 const seedUsers = () => User.bulkCreate(userData);
