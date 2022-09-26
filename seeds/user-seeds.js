@@ -37,10 +37,10 @@ const userData = [
          password: "P@ssword5"
      },
      {
-         username: "tom_preston",
-         twitter: "mojombo",
-         github: "mojombo",
-         email: "tom@mojombo.com",
+         username: "bobby_burke",
+         twitter: "",
+         github: "",
+         email: "bobbybruke0@gmail.com",
          password: "P@ssword6"
      },
 ]
